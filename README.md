@@ -1,6 +1,6 @@
 # Arduino-LMIC library ("MCCI LoRaWAN LMIC Library")
 
-[![GitHub release](https://img.shields.io/github/release/mcci-catena/arduino-lmic.svg)](https://github.com/mcci-catena/arduino-lmic/releases/latest) [![GitHub commits](https://img.shields.io/github/commits-since/mcci-catena/arduino-lmic/latest.svg)](https://github.com/mcci-catena/arduino-lmic/compare/v5.0.1...master) [![Arduino CI](https://img.shields.io/github/actions/workflow/status/mcci-catena/arduino-lmic/ci-arduinocli.yml?branch-master)](https://github.com/mcci-catena/arduino-lmic/actions)
+[![GitHub release](https://img.shields.io/github/release/mcci-catena/arduino-lmic.svg)](https://github.com/mcci-catena/arduino-lmic/releases/latest) [![GitHub commits](https://img.shields.io/github/commits-since/mcci-catena/arduino-lmic/latest.svg)](https://github.com/mcci-catena/arduino-lmic/compare/v5.0.2...master) [![Arduino CI](https://img.shields.io/github/actions/workflow/status/mcci-catena/arduino-lmic/ci-arduinocli.yml?branch-master)](https://github.com/mcci-catena/arduino-lmic/actions)
 <!-- lmic document is v5.0.0, don't forget to update -->
 
 **Contents:**
@@ -1002,6 +1002,11 @@ function uflt12f(rawUflt12)
 ```
 
 ## Release History
+
+- v5.0.2 has the following changes.
+
+  - Added `ttn-otaa-sx1262/ttn-otaa-sx1262.ino` example to demonstrate how to manually configure an SX1262 board.
+  - Updated `HOWTO-Manually-Configure.md` to fully document the 'advanced initialization' features that have been added to allow for compatibility with SX126x radios
 
 - v5.0.1 has the following changes.
 
